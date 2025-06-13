@@ -1,13 +1,13 @@
-# [cite_start]TinyProject1 
+# TinyProject1 
 
 ### Description
-* [cite_start]**Project**: A linear regression model to predict computer performance based on hardware specifications. 
-* [cite_start]**Target Variable**: Published Relative Performance (PRP). 
-* [cite_start]**Features**: MYCT, MMIN, MMAX, CACH, CHMIN, and CHMAX. 
+* **Project**: A linear regression model to predict computer performance based on hardware specifications. 
+* **Target Variable**: Published Relative Performance (PRP). 
+* **Features**: MYCT, MMIN, MMAX, CACH, CHMIN, and CHMAX. 
 
 ### Prerequisites
-* [cite_start]C++17 compatible compiler (e.g., `g++`). 
-* [cite_start]`make` utility. 
+* C++17 compatible compiler (e.g., `g++`). 
+* `make` utility. 
 
 ### How to Use
 
@@ -31,6 +31,6 @@
 
 ### Expected Output
 
-beta = [-0.0328068, 0.0145806, 0.00387422, 0.706114, -1.17751, 1.59151]
-Train RMSE = 70.509
-Test RMSE = 44.208
+beta = [-0.0328068, 0.0145806, 0.00387422, 0.706114, -1.17751, 1.59151] //
+Train RMSE = 70.509 // 
+Test RMSE = 44.208 
