@@ -13,7 +13,7 @@ static std::vector<std::string> split(const std::string &s, char delim=',') {
 }
 
 int main() {
-    std::ifstream fin("machine.data");
+    std::ifstream fin("data/machine.data"); // Path updated to the data subdirectory
     if (!fin) {
         std::cerr << "machine.data not found. Download it and place next to executable.\n";
         return 1;
